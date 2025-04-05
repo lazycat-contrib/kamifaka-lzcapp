@@ -1,0 +1,8 @@
+services:
+    kamifaka:
+        container_name: kamifaka
+        ports:
+            - 8000:8000
+        volumes:
+            - /x:/usr/src/app/database
+        image: baiyuetribe/kamifaka
