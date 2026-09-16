@@ -7,10 +7,9 @@ application:
   upstreams:
     - location: /
       backend: http://kamifaka:8000/
-
 services:
   kamifaka:
     # upstream: baiyuetribe/kamifaka:v1.8
-    image: baiyuetribe/kamifaka:v1.8
+    image: registry.lazycat.cloud/czyt/baiyuetribe/kamifaka:64d7c6a94c001269
     binds:
       - /lzcapp/var/db:/usr/src/app/database
