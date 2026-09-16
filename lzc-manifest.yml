@@ -1,0 +1,16 @@
+application:
+  subdomain: kamifaka
+  background_task: true
+  multi_instance: false
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://kamifaka:8000/
+
+services:
+  kamifaka:
+    # upstream: baiyuetribe/kamifaka:v1.8
+    image: baiyuetribe/kamifaka:v1.8
+    binds:
+      - /lzcapp/var/db:/usr/src/app/database

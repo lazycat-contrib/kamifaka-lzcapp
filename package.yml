@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.kamifaka
+version: 1.8.0
+name: Kamifaka
+description: "开源发卡系统"
+min_os_version: "1.5.0"
+homepage: https://github.com/Baiyuetribe/kamiFaka
+author: Baiyuetribe
+locales:
+  zh:
+    name: "佰阅发卡"
+    description: "开源发卡系统"
+  en:
+    name: "Kamifaka"
+    description: "Open Source Digital Goods Distribution System"
