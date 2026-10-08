@@ -1,4 +1,5 @@
 package: cloud.lazycat.app.kamifaka
+license: MIT
 version: 1.8.0
 name: Kamifaka
 description: "开源发卡系统"
